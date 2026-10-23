@@ -15,7 +15,7 @@ from PySide6.QtWidgets import (
     QWidget,
 )
 
-from src.pipeline.predict_pipeline import CustomData, PredictPipeline
+from src.pipeline.Predict import CustomData, PredictPipeline
 
 
 class ConcreteStrengthApp(QMainWindow):
