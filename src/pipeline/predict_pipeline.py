@@ -15,7 +15,7 @@ class PredictPipeline:
         try:
             model_path = os.path.join("artifacts", "model.pkl")
             preprocessor_path = os.path.join(
-                "artifacts", "proprocessor.pkl"
+                "artifacts", "preprocessor.pkl"
             )
 
             print("Loading model and preprocessor...")

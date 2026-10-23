@@ -30,7 +30,7 @@ class PredictPipeline:
         try:
             model_path = self.base_dir / "artifacts" / "model.pkl"
             preprocessor_path = (
-                self.base_dir / "artifacts" / "proprocessor.pkl"
+                self.base_dir / "artifacts" / "preprocessor.pkl"
             )
 
             # Check that required artifacts exist
