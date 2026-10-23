@@ -8,4 +8,6 @@ xgboost
 dill
 streamlit
 flask
+PySide6
+pyinstaller
 ## -e .
